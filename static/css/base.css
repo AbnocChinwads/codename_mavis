@@ -2,8 +2,31 @@ html {
     height: 100%;
 }
 
+body {
+    background-color: #6c757d;
+}
+
+.dropdown-menu {
+    background-color: #bec4c9;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.dropdown-item {
+    background-color: #bec4c9 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #7d746c !important;
+    border-radius: 17% 25% 25% 17%;
+}
+
 .header-container {
     padding: 1rem;
+}
+
+.bg-secondary {
+    opacity: 1 !important;
 }
 
 .dropdown {
