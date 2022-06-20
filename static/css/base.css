@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #6c757d;
+    color: #f8f0e3;
 }
 
 .dropdown-menu {
@@ -18,7 +19,7 @@ body {
 
 .dropdown-item:hover {
     background-color: #7d746c !important;
-    border-radius: 17% 25% 25% 17%;
+    border-radius: 17% 50% 50% 17%;
 }
 
 .header-container {
