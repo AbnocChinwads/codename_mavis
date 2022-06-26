@@ -4,5 +4,6 @@
 
 tasks:
   - init: pip install update -r requirements.txt
-          pip freeze local > requirements.txt
+  - init: pip freeze local > requirements.txt
+  - command: python manage.py runserver
 
