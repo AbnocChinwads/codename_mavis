@@ -3,6 +3,5 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: pip install update -r requirements.txt && pip freeze local > requirements.txt
-    command: python manage.py runserver
+  - init: pip install update -r requirements.txt
 
